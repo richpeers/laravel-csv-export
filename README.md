@@ -1,5 +1,10 @@
 # Laravel Csv Export
 
+[![Latest Stable Version](https://poser.pugx.org/richpeers/laravel-csv-export/v/stable)](https://packagist.org/packages/richpeers/laravel-csv-export)
+[![Total Downloads](https://poser.pugx.org/richpeers/laravel-csv-export/downloads)](https://packagist.org/packages/richpeers/laravel-csv-export)
+[![Latest Unstable Version](https://poser.pugx.org/richpeers/laravel-csv-export/v/unstable)](https://packagist.org/packages/richpeers/laravel-csv-export)
+[![License](https://poser.pugx.org/richpeers/laravel-csv-export/license)](https://packagist.org/packages/richpeers/laravel-csv-export)
+
 Export to csv via Symfony StreamedResponse or saved file. Pass in eloquent query builder to chunk the query.
 
 ## Installation
