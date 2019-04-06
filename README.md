@@ -39,7 +39,7 @@ class ExampleExport extends ExportAbstract implements ExportInterface
     }
 
     /**
-     * Transform value to array of column row values.
+     * Transform row values.
      * @param $value
      * @return array
      */
