@@ -7,13 +7,13 @@
 
 Export to csv via Symfony StreamedResponse or saved file. Pass in eloquent query builder to chunk the query.
 
-## Installation
-With composer:
+## Usage
+Install with composer:
 ```
 composer require richpeers/laravel-csv-export
 ```
 
-Create a class extending `ExportEbstract` and implementing `ExportInterface`. Example below:
+Create a class extending `ExportAbstract` and implementing `ExportInterface`. Example below:
 ```
 <?php
 
