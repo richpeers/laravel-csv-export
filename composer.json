@@ -1,0 +1,30 @@
+{
+  "name": "richpeers/laravel-csv-export",
+  "description": "Chunk eloquent query builder and return csv via Symfony streamedResponse or save",
+  "license": "MIT",
+  "version": "0.1",
+  "keywords": [
+    "Laravel",
+    "csv",
+    "export",
+    "stream"
+  ],
+  "homepage": "https://github.com/richpeers/laravel-csv-export",
+  "authors": [
+    {
+      "name": "Rich Peers",
+      "email": "richpeers1@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "laravel/framework": "~5.5.0|~5.6.0|~5.7.0|~5.8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RichPeers\\LaravelCsvExport\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
